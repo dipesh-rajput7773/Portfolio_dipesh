@@ -1,38 +1,283 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap');
+
+
+
+:root {
+    --light-color: #EFE6F4;
+    --main-color: #A177B4;
+    --black: #232323;
+    --white: #ffffff;
+    --light-gray: #787878;
+    --bg-color: #F3F4FA;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--black);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+body {
+    font-family: Raleway, serif;
+    background-color: var(--bg-color);
+}
+
+
+.bg-body-tertiary {
+    margin-top: 1rem;
+    background-color: var(--white);
+    border-radius: 11px;
+    padding: 0.5rem 1.4rem;
+    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.25);
+}
+
+.custom {
+    border-radius: 20px;
+    background: var(--light-color);
+    color: var(--main-color);
+    border: none;
+    padding: 10px 15px;
+    font-weight: 500;
+    font-size:14px;
+}
+
+.custom_from_btn {
+    border-radius: 20px;
+    background: var(--main-color);
+    color: var(--light-color);
+    border: none;
+    padding: 10px 15px;
+    font-weight: 500;
+    font-size:14px;
+}
+
+
+
+.nav-link {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--black);
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+}
+
+nav.bg-body-tertiary.navbar.navbar-expand-lg.navbar-light {
+    z-index: 1;
+}
+
+
+.left {
+    margin: 5rem 0.5rem 0rem 1.2rem;
+}
+
+.top-h {
+    margin-top: 20px;
+    font-size: 31.5px;
+    font-weight: 500;
+}
+
+.heading {
+
+    font-size: 100px;
+
+    font-weight: 500;
+
+}
+
+.heading span {
+
+    margin: 0 0 0 6rem;
+
+}
+
+img {
+    max-width: 100%;
+}
+
+.overimg {
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+}
+
+header {
+    position: relative;
+}
+
+.right img {
+    z-index: 0;
+    margin-top: -10px;
+}
+
+
+.intro-content p {
+    font-size: 72px;
+    line-height: 1;
+   
+    font-weight: 600;
+   
+}
+
+.intro-sec {
+   margin: 2rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+.intro-content span {
+     color: #525050;
+font-size: 30px;
+font-weight: 600;
+text-transform: uppercase;
+padding: 2rem 0;
+}
+
+.exploreoverimg{
+    width: 100vw;
+}
+
+.pc{
+    position: relative;
+}
+
+.skill{
+    position: absolute;
+    font-size: 46px;
+top: 40%;
+left:35%;
+
+}
+
+.skillss{
+    position: absolute;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 1rem 0rem;
+}
+
+
+
+.box div h3 {
+    font-size: 16px;
+    font-weight: 500;
+}
+.box span {
+    font-size: 12px;
+    font-weight: 400;
+}
+.sliss-content {
+    padding: 2rem 20rem;
+    position: absolute;
+    top: 10%;
+    left: -7%;
+}
+
+.box div {
+    margin: 0 0 0 16px;
+}
+
+
+
+/* Skills.css */
+.skills-container {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  .skills-visible {
+    opacity: 1;
   }
-  to {
-    transform: rotate(360deg);
+  
+  /* ExploreSkill.css */
+  .explore-skill-container {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
   }
+  
+  .explore-skill-visible {
+    opacity: 1;
+  }
+  .contect-form {
+    background-color: var(--light-color);
+    padding: 1rem 0;
+}
+  .right-form{
+    position: relative;
+    text-align: end;
+  }
+
+  .feature  {position: absolute;right: 10px;top: 10%;}
+  h4.text-center {
+    padding: 3rem 0;
+    color: var(--main-color);
+    font-size: 40px;
+
+font-weight: 500;
+}
+section.contectform {
+    margin: 120px 0 0 0;
+}
+.align-center{
+    align-items: center;
+}
+
+input#exampleForm\.ControlInput1 {
+    border-radius: 20px;
+    background: #FFFAFA;
+    padding: 1rem 1rem;
+}
+
+textarea#exampleForm\.ControlTextarea1 {
+    border-radius: 20px;
+    background: #FFFAFA;
+    padding: 1rem 1rem;
+}
+textarea#exampleForm\.ControlTextarea1::placeholder {
+    font-size: 16px;
+    color: #A9A9A9;
+    text-transform: capitalize
+}
+
+
+label.form-label {
+    color: #787878;
+  
+    font-size: 20px;
+   
+    font-weight: 600;
+   
+    text-transform: capitalize;
+}
+
+.footer-box {
+  margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   padding: 10px 30px;
+
+    border-radius: 20px;
+background: #F3F4FA;
+box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.25);
+}
+
+.left-footer {
+    color: #B38DC4;
+
+    font-size: 20px;
+
+    font-weight: 500;
+  
+}
+
+.right-footer a {
+    padding: 14px;
 }
