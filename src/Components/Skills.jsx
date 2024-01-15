@@ -58,7 +58,7 @@ function Skills({handleFlip}) {
                         <div className="box">
                             <img src="./figma-svgrepo-com 1.png" alt="" />
                             <div><h3>FIGMA</h3>
-                            <span>Proficient in developing SPAs using React, Redux, and Ant Design.</span></div>
+                            <span>limited working  Proficiency in developing ui using Figma  Ant Design.</span></div>
                         </div>
                     </Col>
                     

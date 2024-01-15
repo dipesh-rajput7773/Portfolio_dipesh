@@ -10,7 +10,7 @@ function ExploreSkill({ handleFlip }) {
    
       <Container >
         <div className='pc'>
-          <img src="./image.svg" alt="" />
+          <img src="./Imagesvg.png" alt="" />
           <div className='skill text-center'>
             Expolre my skills
             <br />
