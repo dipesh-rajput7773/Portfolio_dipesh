@@ -17,7 +17,7 @@ function Skills({handleFlip}) {
 
     <Container>
           <div className='pc'>
-              <img src="./image.svg" alt="" />
+              <img src="./Image.png" alt="" />
              
              <div className='sliss-content'>
                 <btton className='custom' onClick={handleClick}> <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23" fill="none">
