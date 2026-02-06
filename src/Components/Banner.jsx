@@ -13,7 +13,7 @@ function Banner() {
 
             <span className='top-h'>Dipesh Singh Khangarot</span>
             <div className='heading'>
-              Front-end
+              Full-stack
               <br/>
               <span >Developer</span>
             </div>
